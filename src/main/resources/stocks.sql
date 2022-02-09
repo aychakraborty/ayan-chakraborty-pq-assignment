@@ -1,0 +1,10 @@
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(1, 'Reliance', 2355.60, '2022-02-07 00:00:01');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(2, 'TCS', 3742.40, '2022-02-07 00:00:02');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(3, 'HDFC Bank', 1461.10, '2022-02-07 00:00:03');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(4, 'Infosys', 1716.55, '2022-02-07 00:00:04');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(5, 'ICICI Bank', 792.70, '2022-02-07 00:00:05');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(6, 'HUL', 2264.70, '2022-02-07 00:00:06');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(7, 'SBI', 531.10, '2022-02-07 00:00:07');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(8, 'HDFC', 2415.30, '2022-02-07 00:00:08');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(9, 'Bajaj Finance', 7051.05, '2022-02-07 00:00:09');
+INSERT INTO STOCK(ID, name, current_price, last_update) VALUES(10, 'Bharti Airtel', 708.85, '2022-02-07 00:00:10');
