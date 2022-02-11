@@ -34,6 +34,19 @@ Coding Steps & Functionality:
 3. 'StockController' contains the GET API, request payload is sent with the 'Pageable' object class where the number of stocks per page is defined.
 4. Request flows from 'StockController' to 'StockHandler'. Using the findAll(pageable) property of 'PagingAndSortingRepository' springframework class, the number of stocks per page is fetched as response.
 
+Application Set-up:
+
+1. Go to Github location: https://github.com/aychakraborty/ayan-chakraborty-pq-assignment
+2. Clone Github repository. (https://github.com/aychakraborty/ayan-chakraborty-pq-assignment)
+3. Open Eclipse IDE. Go to Git Repository view. Clone application using URL and place it in local directory.
+4. Go to Java EE view in Eclipse IDE. Right click on Project Explorer -> Import -> Import as Maven Project and give your local repository location where the project has been cloned from Github.
+5. Once import is successful, Run Maven build (clean install) on Eclipse IDE. Make note that you have Java v11 configured and the Maven build is running on jdk 1.11.
+6. Once Maven build is successful, perform Maven dependency update. (Right click on project -> Maven -> Update project)
+7. Install Tomcat v9.0 server and add to Eclipse IDE. Select jdk 1.11 as your environment run.
+8. Add stocks(stocks-0.0.1-SNAPSHOT) to Tomcat server in Eclipse IDE.
+9. Double click on Tomcat server. Use port 8080. Increase Timeout to Start 450 s and Stop 150 s.
+10. Run Tomcat server with the project. Once server is up, follow below for browser payload testing.
+
 Browser Payload Testing:
 
 Database Verification Local URL: http://localhost:8080/stocks/h2-console/login.jsp - (credentials present in application.properties)
@@ -87,7 +100,7 @@ Demo Example #1:
 
 Demo Example #2:
 
-1. URL:- http://localhost:8080/stocks/api/stocks?size=5
+1. Local URL:- http://localhost:8080/stocks/api/stocks?size=5
 2. Response:
 {
   "content": [
